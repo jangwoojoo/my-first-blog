@@ -1,0 +1,14 @@
+가상환경사용하기
+1.virualenv 라이브러리 설치
+-pip 명령을 통해 라이브러리 설치
+-pip virtualenv
+2.virtualenv 명령을 통한,가상환경 생성
+-라이브러리 설치하면,명령어를 통한 환경구축(디렉터리가 생성)
+-virtualenv 가상환경이름(디렉터리가 생성이됨)
+3.가상환경활성화
+-가상환경이름\scripts\activate
+4.활성화 상태에서 라이브러리(필요한)설치
+-pip install 설치할라이브러리
+-pip install django pytz django-tagging django-disqus pillow
+5.가상환경 내에서 프로젝트 개발
+6.deactive 명령으로 가상환경 비활성화
